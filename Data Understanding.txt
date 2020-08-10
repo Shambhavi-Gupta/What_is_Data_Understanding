@@ -1,4 +1,7 @@
-In the second phase of the Cross-Industry Standard Process for Data Mining (CRISP-DM) process model, you obtain data and verify that it is appropriate for your needs. You might identify issues that cause you to return to business understanding and revise your plan. You may even discover flaws in your business understanding, another reason to rethink goals and plans.
+In the second phase of the Cross-Industry Standard Process for Data Mining (CRISP-DM) process model, 
+you obtain data and verify that it is appropriate for your needs. You might identify issues that 
+cause you to return to business understanding and revise your plan. You may even discover flaws 
+in your business understanding, another reason to rethink goals and plans.
 
 The data-understanding phase includes four tasks. These are
 
@@ -11,15 +14,22 @@ Exploring data
 Verifying data quality
 
 Task: Gathering data
-You’ve just set goals and defined a data-mining plan. Every step of the plan depends on having the right data. Better make sure that you really have that data!
+Youâ€™ve just set goals and defined a data-mining plan. Every step of the plan depends on having
+the right data. Better make sure that you really have that data!
 
-Just one deliverable exists for this task: the initial data collection report. In your report, you need to verify that you have acquired the data or at least gained access to the data, tested the data access process, and verified that the data exists. You’ll also need to load data into any tools that you will be using for data mining to verify that the tools are compatible with the data.
+Just one deliverable exists for this task: the initial data collection report. In your report,
+you need to verify that you have acquired the data or at least gained access to the data, tested
+the data access process, and verified that the data exists. Youâ€™ll also need to load data into
+any tools that you will be using for data mining to verify that the tools are compatible with the data.
 
-You may do a lot of work to assemble the data you need before you can write this report. First, you will make your plan, as follows:
+You may do a lot of work to assemble the data you need before you can write this report. First,
+you will make your plan, as follows:
 
-Outline data requirements: Create a list of the types of data necessary to address the data mining goals. Expand the list with details such as the required time range and data formats.
+Outline data requirements: Create a list of the types of data necessary to address the data mining goals.
+Expand the list with details such as the required time range and data formats.
 
-Verify data availability: Confirm that the required data exists, and that you can use it. If some of the data you want is unavailable, decide how you will address that issue. Consider alternatives such as
+Verify data availability: Confirm that the required data exists, and that you can use it. If some of the data
+you want is unavailable, decide how you will address that issue. Consider alternatives such as
 
 Substituting with an alternative data source
 
@@ -27,25 +37,39 @@ Narrowing the scope of the project
 
 Gathering new data
 
-Define selection criteria: Identify the specific data sources (databases, files, documents, and so on.) you will use. Within those sources, specify the tables, fields, and case ranges that are relevant to this project.
+Define selection criteria: Identify the specific data sources (databases, files, documents, and so on.) you
+will use. Within those sources, specify the tables, fields, and case ranges that are relevant to this project.
 
-Once you’ve gone through these steps, you must actually obtain the data. At this stage, import the data into the data-mining platform you’ll be using for the project to confirm that it is possible to do so and that you understand the process. In the course of this trial you may discover software (or hardware) limitations you had not anticipated, such as
+Once youâ€™ve gone through these steps, you must actually obtain the data. At this stage, import the data
+into the data-mining platform youâ€™ll be using for the project to confirm that it is possible to do so
+and that you understand the process. In the course of this trial you may discover software (or hardware)
+limitations you had not anticipated, such as
 
 Limits on the number of cases or fields, or on the amount of memory you may use
 
 Inability to read the data formats of your sources
 
-Difficulty dealing with imperfections in the data (for example, you might encounter products that won’t import or analyze incomplete datasets)
+Difficulty dealing with imperfections in the data (for example, you might encounter products that wonâ€™t 
+import or analyze incomplete datasets)
 
-Finally, summarize the gathering process in a report. The report should describe your requirements, and explain in some detail exactly what data you have gathered and from what sources. Here you confirm that you have actually obtained the data and that it is compatible with your data-mining platform. If you have run into difficulties, you’ll explain what they were and how you have addressed them (using alternative sources, revising plans, changing formats).
+Finally, summarize the gathering process in a report. The report should describe your requirements, and
+explain in some detail exactly what data you have gathered and from what sources. Here you confirm that
+you have actually obtained the data and that it is compatible with your data-mining platform. If you have 
+run into difficulties, youâ€™ll explain what they were and how you have addressed them (using alternative
+sources, revising plans, changing formats).
 
 Task: Describing data
 Now that you have data, prepare a general description of what you have.
 
-The deliverable for this task is the data description report. In it, you describe the source and formats of the data, the number of cases, the number and descriptions of the fields, and any other general information that may be important. You also make a brief evaluation of the suitability of the data for your data-mining goals. For example, verify that the data includes the fields that you expect and need to be there and sufficient cases for analysis.
+The deliverable for this task is the data description report. In it, you describe the source and formats 
+of the data, the number of cases, the number and descriptions of the fields, and any other general information
+that may be important. You also make a brief evaluation of the suitability of the data for your data-mining goals. 
+For example, verify that the data includes the fields that you expect and need to be there and sufficient cases for analysis.
 
 Task: Exploring data
-In this task, you examine the data more closely. For each variable, you look at the range of values and their distributions. You’ll use simple data manipulation and basic statistical techniques for further checks into the data. Data exploration supports several purposes:
+In this task, you examine the data more closely. For each variable, you look at the range of values and their
+distributions. Youâ€™ll use simple data manipulation and basic statistical techniques for further checks into the data.
+Data exploration supports several purposes:
 
 Get familiar with the data.
 
@@ -53,15 +77,24 @@ Spot signs of data quality problems.
 
 Set the stage for data preparation steps.
 
-The deliverable for this task is the data exploration report. It’s the place to document any hypotheses or initial findings that you have developed during data exploration. This report should include a more detailed description of the data than the data description report, including distributions, summaries, and any signs of data quality problems.
+The deliverable for this task is the data exploration report. Itâ€™s the place to document any hypotheses or 
+initial findings that you have developed during data exploration. This report should include a more detailed
+description of the data than the data description report, including distributions, summaries, and any signs
+of data quality problems.
 
 Task: Verifying data quality
-You have the data and you’ve examined it, and now you have to determine whether it’s good enough to support your goals. You will often have some quality problem to address yet still be able to move forward, but at times the data quality is so poor that it cannot support your plan and you’ll have to look for alternatives. Some of the worst data problems would include
+You have the data and youâ€™ve examined it, and now you have to determine whether itâ€™s good enough to support your goals.
+You will often have some quality problem to address yet still be able to move forward, but at times the data quality
+is so poor that it cannot support your plan and youâ€™ll have to look for alternatives. Some of the worst data problems would include
 
-The data you need doesn’t exist. (Did it never exist, or was it discarded? Can this data be collected and saved for future use?)
+The data you need doesnâ€™t exist. (Did it never exist, or was it discarded? Can this data be collected and saved 
+for future use?)
 
-It exists, but you can’t have it. (Can this restriction be overcome?)
+It exists, but you canâ€™t have it. (Can this restriction be overcome?)
 
-You find severe data quality issues (lots of missing or incorrect values that can’t be corrected).
+You find severe data quality issues (lots of missing or incorrect values that canâ€™t be corrected).
 
-The deliverable for this task is the data quality report. This summarizes the data that you have, minor and major quality issues that you have found, and possible remedies for quality problems or alternatives (such as using an alternative data resource). If you are facing any really serious data quality issues and can’t identify an adequate solution, you may have to recommend reconsidering goals or plans.
+The deliverable for this task is the data quality report. This summarizes the data that you have, minor and
+major quality issues that you have found, and possible remedies for quality problems or alternatives (such as 
+using an alternative data resource). If you are facing any really serious data quality issues and canâ€™t identify
+an adequate solution, you may have to recommend reconsidering goals or plans.
